@@ -10,7 +10,7 @@ body
 #main
 {
     background-color:white;
-    min-height:100px;
+    min-height:1000px;
     opacity:0.8;
     margin-top:5%;
     margin-left:10%;
@@ -42,13 +42,6 @@ footer
 }
 a
 {
-    text-align: center;
     text-decoration:none;
     color:blue;
 }
-.container {
-    padding-right:15px;
-    padding-left:15px;
-    margin-right:auto;
-    margin-left:auto
-   }
