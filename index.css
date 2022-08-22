@@ -40,6 +40,14 @@ footer
     text-align: center;
     color:whitesmoke;
 }
+#zhengwen{
+    text-align: center;
+    text-decoration:none;
+}
+#shouye{
+    text-align: center;
+    text-decoration:none;
+}
 a
 {
     text-align: center;

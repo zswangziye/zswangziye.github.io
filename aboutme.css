@@ -31,6 +31,13 @@ body
     text-align: center;
     /*border: 3px solid grey;*/
 }
+#shouye{
+    text-align: center;
+    text-decoration:none;
+}
+#zhengwen{
+    text-decoration:none;
+}
 h2
 {
     color:purple;
