@@ -1,0 +1,55 @@
+body
+{
+    background-color:rgba(0, 0, 0, 0.5);
+    /*background-image:url(https://cdn.luogu.com.cn/upload/image_hosting/w17mq27m.png?x-oss-process=image/resize,m_lfit,h_170,w_225);*/
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#main
+{
+    background-color:white;
+    min-height:100px;
+    opacity:0.8;
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+}
+#heading
+{
+    text-align:center;
+    color:rgba(0, 0, 0, 0.911);
+    line-height:100%;
+}
+#yiyan
+{
+    text-align: center;
+    /*border: 3px solid grey;*/
+}
+#shouye{
+    text-align: center;
+    text-decoration:none;
+}
+#zhengwen{
+    text-decoration:none;
+}
+h2
+{
+    color:purple;
+}
+footer
+{
+    text-align: center;
+    color:whitesmoke;
+}
+a
+{
+    text-align: center;
+    text-decoration:none;
+    color:blue;
+}
