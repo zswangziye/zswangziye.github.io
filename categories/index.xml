@@ -2,16 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on zswangziye</title>
-        <link>https://zswangziye,github.io/categories/</link>
+        <link>https://zswangziye.github.io/categories/</link>
         <description>Recent content in Categories on zswangziye</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>zswangziye</copyright><atom:link href="https://zswangziye,github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Frontend</title>
-        <link>https://zswangziye,github.io/categories/frontend/</link>
+        <copyright>WerChange</copyright><atom:link href="https://zswangziye.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>模拟赛</title>
+        <link>https://zswangziye.github.io/categories/%E6%A8%A1%E6%8B%9F%E8%B5%9B/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zswangziye,github.io/categories/frontend/</guid>
+        <guid>https://zswangziye.github.io/categories/%E6%A8%A1%E6%8B%9F%E8%B5%9B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>算法</title>
+        <link>https://zswangziye.github.io/categories/%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zswangziye.github.io/categories/%E7%AE%97%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>题解</title>
+        <link>https://zswangziye.github.io/categories/%E9%A2%98%E8%A7%A3/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zswangziye.github.io/categories/%E9%A2%98%E8%A7%A3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>游记</title>
+        <link>https://zswangziye.github.io/categories/%E6%B8%B8%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zswangziye.github.io/categories/%E6%B8%B8%E8%AE%B0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>杂谈</title>
+        <link>https://zswangziye.github.io/categories/%E6%9D%82%E8%B0%88/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zswangziye.github.io/categories/%E6%9D%82%E8%B0%88/</guid>
         <description></description>
         </item>
         
