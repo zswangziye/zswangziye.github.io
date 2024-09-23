@@ -6,7 +6,7 @@
         <description>Recent content in Pages on zswangziye</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>WerChange</copyright>
+        <copyright>zswangziye</copyright>
         <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zswangziye.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://zswangziye.github.io/archives/</link>
@@ -39,9 +39,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://zswangziye.github.io/%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;这里是链接。&lt;/p&gt;
-</description>
+        <description></description>
         </item>
         <item>
         <title>搜索</title>

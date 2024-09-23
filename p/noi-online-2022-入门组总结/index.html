@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="2022-03-31 NOI Online 2022 入门组总结">
+<title>NOI Online 2022 入门组总结</title>
+
+<link rel='canonical' href='https://zswangziye.github.io/p/noi-online-2022-%E5%85%A5%E9%97%A8%E7%BB%84%E6%80%BB%E7%BB%93/'>
+
+<link rel="stylesheet" href="/scss/style.min.5c731993185d74775d2bc77432a6c81dd39f088bb17dcaa581431bdd7ee31055.css"><meta property='og:title' content="NOI Online 2022 入门组总结">
+<meta property='og:description' content="2022-03-31 NOI Online 2022 入门组总结">
+<meta property='og:url' content='https://zswangziye.github.io/p/noi-online-2022-%E5%85%A5%E9%97%A8%E7%BB%84%E6%80%BB%E7%BB%93/'>
+<meta property='og:site_name' content='zswangziye'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-03-31T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-03-31T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="NOI Online 2022 入门组总结">
+<meta name="twitter:description" content="2022-03-31 NOI Online 2022 入门组总结">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avater_hu1004517258658650995.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🐟</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">zswangziye</a></h1>
+            <h2 class="site-description">国家一级保护废物</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#t1-王国比赛">T1 王国比赛</a>
+      <ol>
+        <li><a href="#民间数据100-pts">民间数据：100 pts</a></li>
+        <li><a href="#官方数据100-pts">官方数据：100 pts</a></li>
+        <li><a href="#思路">【思路】</a>
+          <ol>
+            <li><a href="#赛时思路先根据大臣的答案统计每一道题的预测答案然后再把预测的答案和真正的答案比较">赛时思路：先根据大臣的答案统计每一道题的预测答案，然后再把预测的答案和真正的答案比较。</a></li>
+            <li><a href="#正解同上">正解：同上。</a></li>
+          </ol>
+        </li>
+        <li><a href="#情况">【情况】</a></li>
+      </ol>
+    </li>
+    <li><a href="#t2-数学游戏">T2 数学游戏</a>
+      <ol>
+        <li><a href="#民间数据40-pts">民间数据：40 pts</a></li>
+        <li><a href="#官方数据70-pts">官方数据：70 pts</a></li>
+        <li><a href="#思路-1">【思路】</a>
+          <ol>
+            <li><a href="#赛时思路">赛时思路：</a></li>
+            <li><a href="#正解">正解：</a></li>
+          </ol>
+        </li>
+        <li><a href="#情况-1">【情况】</a></li>
+      </ol>
+    </li>
+    <li><a href="#t3-字符串">T3 字符串</a>
+      <ol>
+        <li><a href="#民间数据30-pts">民间数据：30 pts</a></li>
+        <li><a href="#官方数据30-pts">官方数据：30 pts</a></li>
+        <li><a href="#思路-2">【思路】</a>
+          <ol>
+            <li><a href="#赛时思路-1">赛时思路：</a></li>
+            <li><a href="#正解-1">正解：</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#总结">总结</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%B8%B8%E8%AE%B0/" style="background-color: #2a9d8f; color: #fff;">
+                游记
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/noi-online-2022-%E5%85%A5%E9%97%A8%E7%BB%84%E6%80%BB%E7%BB%93/">NOI Online 2022 入门组总结</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            2022-03-31 NOI Online 2022 入门组总结
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 31, 2022 00:00 UTC</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="noi-online-2022-入门组总结">NOI Online 2022 入门组总结
+</h1><hr>
+<h2 id="t1-王国比赛">T1 王国比赛
+</h2><h3 id="民间数据100-pts">民间数据：100 pts
+</h3><h3 id="官方数据100-pts">官方数据：100 pts
+</h3><h3 id="思路">【思路】
+</h3><h4 id="赛时思路先根据大臣的答案统计每一道题的预测答案然后再把预测的答案和真正的答案比较">赛时思路：先根据大臣的答案统计每一道题的预测答案，然后再把预测的答案和真正的答案比较。
+</h4><h4 id="正解同上">正解：同上。
+</h4><h3 id="情况">【情况】
+</h3><p>这道题不用太多思考，看懂题就行，考试的时候正常发挥，快速打完了。</p>
+<hr>
+<h2 id="t2-数学游戏">T2 数学游戏
+</h2><h3 id="民间数据40-pts">民间数据：40 pts
+</h3><h3 id="官方数据70-pts">官方数据：70 pts
+</h3><h3 id="思路-1">【思路】
+</h3><h4 id="赛时思路">赛时思路：
+</h4>$$
+z=x*y*gcd(x,y)
+$$$$
+z/x=y*gcd(x,y)
+$$$$
+这也就意味着我们只需要枚举y和gcd(x,y)其中之一即可求出另外一个。
+$$$$
+那枚举哪个更好？想一想，gcd(x,y)肯定要比y小，于是枚举gcd(x,y)是最好的选择。
+$$<p>然后就动手敲代码……经过对拍测试，这份代码总的来说速度不错，但是不能A。</p>
+<h4 id="正解">正解：
+</h4>$$
+设d=gcd(x,y),x=pd,y=qd,z=pqd^3.
+$$$$
+由gcd定义得:p与q互质.
+$$$$
+∴p^2与q互质.
+$$$$
+现在已知pd与pqd^3也就是x和z,需要求出y=qd.
+$$$$
+qd=pqd^3/pd/d，于是我们只需要求出d.
+$$$$
+运用p^2与q互质的性质，可以构造出d^2=gcd(p^2d^2,qd^2)=gcd(x^2,z/x).
+$$$$
+则d=sqrt(gcd(x^2,z/x)),最后需要判断是否合法.
+$$<h3 id="情况-1">【情况】
+</h3><p>做的时候推不出正解，只能尽可能的减小时间复杂度，拿了70分，不大满意，下次恶补下数学。</p>
+<hr>
+<h2 id="t3-字符串">T3 字符串
+</h2><h3 id="民间数据30-pts">民间数据：30 pts
+</h3><h3 id="官方数据30-pts">官方数据：30 pts
+</h3><h3 id="思路-2">【思路】
+</h3><h4 id="赛时思路-1">赛时思路：
+</h4><p>我能想到的只有三个字母：
+</p>
+$$
+DFS
+$$<p>
+时间复杂度不用算都知道会爆炸……</p>
+<h4 id="正解-1">正解：
+</h4><p>待学习……</p>
+<hr>
+<h2 id="总结">总结
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">T1 国王比赛</th>
+          <th style="text-align: left">T2 数学游戏</th>
+          <th style="text-align: left">T3 字符串</th>
+          <th style="text-align: left">总分</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">洛谷自测成绩</td>
+          <td style="text-align: left">100</td>
+          <td style="text-align: left">40</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">170</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">官方公布成绩</td>
+          <td style="text-align: left">100</td>
+          <td style="text-align: left">70</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">200</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>怎么……官方数据比民间数据还水……</p>
+<p>总的来说，考的比较满意。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="a764b0e5-5fb3-453b-900a-cf7a524d196f"
+    data-page-id="bce6da3dfba5c4dfe87a86cccb49b105"
+    data-page-url="https://zswangziye.github.io/p/noi-online-2022-%E5%85%A5%E9%97%A8%E7%BB%84%E6%80%BB%E7%BB%93/"
+    data-page-title="NOI Online 2022 入门组总结"></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<script>
+    function setCusdisTheme(theme) {
+        let cusdis = document.querySelector('#cusdis_thread iframe');
+        if (cusdis) {
+            window.CUSDIS.setTheme(theme)
+        }
+    }
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setCusdisTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 zswangziye
+    </section>
+    
+    <section class="powerby">
+        
+            zswangziye's Blog <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
